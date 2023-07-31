@@ -1,57 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="JavaScript.js"></script>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="home">
+      <section class="tm">
+        <div class="encabezdo"><p>Generador de Excusas</p></div>
 
+        <section class="img">
+          <img
+            src="https://th.bing.com/th/id/R.1d8d48ee9b331ed25de5c5389f6d9d10?rik=IbtZJEZqy7Elkg&pid=ImgRaw&r=0"
+            width="20px"
+            alt="20px"
+          />
+        </section>
+      </section>
 
-
-<div class="home">
-    <section class="tm">
-        <div class="encabezdo"> <p>Generador de Excusas </p> </div>
-
-        <section class="img"> <img src="https://th.bing.com/th/id/R.1d8d48ee9b331ed25de5c5389f6d9d10?rik=IbtZJEZqy7Elkg&pid=ImgRaw&r=0" width="20px" alt="20px"> </section>
-    </section>
-
-    <nav class="opciones">
-
+      <nav class="opciones">
         <ul class="menu-horizontal">
-            <li class="r">
-                <a href="#">Idioma</a>
-                <ul class="lista-vertical">
-                   <li id="es" value="Español" onclick="es()"><a href="#">Español</a></li>
-                   <li id="en" value="Ingles"  onclick="en()"><a  href="#">Ingles</a></li>
-                    
-                </ul> 
-            </li>
-    
-    
+          <li class="r">
+            <a href="#">Idioma</a>
+            <ul class="lista-vertical">
+              <li id="es" value="Español" onclick="es()">
+                <a href="#">Español</a>
+              </li>
+              <li id="en" value="Ingles" onclick="en()">
+                <a href="#">Ingles</a>
+              </li>
+            </ul>
+          </li>
         </ul>
-    
-    </nav>
-</div>
+      </nav>
+    </div>
 
+    <div class="centro">
+      <p id="titulo" class="title">OMG! you will not belive me but...</p>
 
+      <p id="escus" class="escusa"></p>
 
-<div class="centro">
-
-
-    <p  id="titulo" class="title">OMG! you will not belive me but...</p>
-
-    <p  id="escus" class="escusa"></p>
-
-    <button  id="boton" name="button" value="Español" onclick="render()">generate</button>
-
-
-    
-</div>
-
-
-    
-</body>
+      <button id="boton" name="button" value="Español" onclick="render()">
+        generate
+      </button>
+    </div>
+  </body>
 </html>

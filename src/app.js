@@ -14,7 +14,7 @@ window.onload = function cambio() {
     "right on time",
     "when I finished",
     "during my lunch",
-    "while I was praying",
+    "while I was praying"
   ];
 
   let who1 = Math.floor(Math.random() * (4 - 0) + 0);
